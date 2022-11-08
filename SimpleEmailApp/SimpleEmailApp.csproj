@@ -13,5 +13,13 @@
 
   <ItemGroup>
     <None Remove="MailKit" />
+    <None Remove="Services\" />
+    <None Remove="Services\EmailService\" />
+    <None Remove="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\EmailService\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
